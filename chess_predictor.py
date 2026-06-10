@@ -50,6 +50,7 @@ feat_importance = pd.DataFrame(
 
 print(feat_importance)
 
+plt.figure(figsize=(10, 6))
 plt.barh(feat_importance["Feature"], feat_importance["Importance"])
 plt.title("Importance of Features in Random Forest Chess Game Predictor")
 plt.xlabel("Importance")
