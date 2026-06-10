@@ -21,18 +21,18 @@ The biggest factor (most important feature) in determining the outcome of a game
 ## How to Run
 
 ​```bash
-# Clone the repo
-git clone https://github.com/KairavT/chess-predictor.git
-cd chess-predictor
-
-# Set up a virtual environment and install dependencies
-python3 -m venv venv
-source venv/bin/activate
-pip install pandas scikit-learn matplotlib
-
-# Download games.csv from Kaggle and place it in the data/ folder:
-# https://www.kaggle.com/datasets/datasnaek/chess
-
-# Run the predictor
-python3 chess_predictor.py
+  # Clone the repo
+  git clone https://github.com/KairavT/chess-predictor.git
+  cd chess-predictor
+  
+  # Set up a virtual environment and install dependencies
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install pandas scikit-learn matplotlib
+  
+  # Download games.csv from Kaggle and place it in the data/ folder:
+  # https://www.kaggle.com/datasets/datasnaek/chess
+  
+  # Run the predictor
+  python3 chess_predictor.py
 ​```
