@@ -23,10 +23,12 @@ feature_list = ['white_rating', 'black_rating',\
                  'rating_diff', 'turns', 'rated', 'opening_ply']\
       + [col for col in df.columns if col.startswith('opening_category_')]
 
+
+# Model
 X = df[feature_list]
 y = df['result']
 
-# Model
+
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size = 0.20, random_state=123
 )
