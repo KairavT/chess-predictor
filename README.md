@@ -18,7 +18,6 @@ The biggest factor (most important feature) in determining the outcome of a game
 - scikit-learn
 - matplotlib
 
-## How to Run
 
 
 ​```zsh
