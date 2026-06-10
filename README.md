@@ -21,7 +21,6 @@ The biggest factor (most important feature) in determining the outcome of a game
 ## How to run
 
 ​```bash
-
 git clone https://github.com/KairavT/chess-predictor.git
 cd chess-predictor
 
