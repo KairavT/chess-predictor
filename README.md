@@ -21,6 +21,7 @@ The biggest factor (most important feature) in determining the outcome of a game
 ## How to Run
 
 ​```
+
 # Clone the repo
 git clone https://github.com/KairavT/chess-predictor.git
 cd chess-predictor
@@ -35,4 +36,5 @@ pip install pandas scikit-learn matplotlib
   
 # Run the predictor
 python3 chess_predictor.py
+
 ​```
