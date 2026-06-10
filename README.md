@@ -20,7 +20,7 @@ The biggest factor (most important feature) in determining the outcome of a game
 
 ## How to Run
 
-​```bash
+​```
 # Clone the repo
 git clone https://github.com/KairavT/chess-predictor.git
 cd chess-predictor
